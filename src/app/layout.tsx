@@ -14,9 +14,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Kubernetes Made Easy - Learn Kubernetes Concepts Interactively',
+  title: 'Kubernetes Made Simple - Learn Kubernetes Interactively',
   description:
-    'A concept-complete beginner+ interactive tutorial for Kubernetes. Learn workloads, networking, storage, scheduling, and control-plane internals.',
+    'An interactive tutorial that teaches Kubernetes from the ground up. Learn orchestration, workloads, networking, storage, scheduling, and control-plane internals — no cluster required.',
+  openGraph: {
+    title: 'Kubernetes Made Simple',
+    description:
+      'An interactive tutorial that teaches Kubernetes from the ground up — no cluster required.',
+    siteName: 'Kubernetes Made Simple',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kubernetes Made Simple',
+    description:
+      'An interactive tutorial that teaches Kubernetes from the ground up — no cluster required.',
+  },
 };
 
 export default function RootLayout({
