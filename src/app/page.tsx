@@ -11,7 +11,6 @@ import {
 	Layer6Scheduling,
 	Layer7Reliability,
 	Layer8ControlPlane,
-	Layer9Bonus,
 } from '@/components/layers';
 import { ScrollTracker } from '@/components/ui';
 
@@ -29,7 +28,6 @@ export default function Home() {
 			<Layer6Scheduling />
 			<Layer7Reliability />
 			<Layer8ControlPlane />
-			<Layer9Bonus />
 
 			{/* Footer */}
 			<footer className="py-8 px-4 border-t border-muted/20">
